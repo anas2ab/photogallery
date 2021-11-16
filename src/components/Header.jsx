@@ -4,7 +4,7 @@ import PhotoCameraBackIcon from '@mui/icons-material/PhotoCameraBack';
 function Header() {
     return (
     <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 col-md-12 col-sm-12">
             <header>
                 <nav className="navbar navbar-light">
                     <div className="container-fluid">
@@ -17,7 +17,7 @@ function Header() {
             </header>
         
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-md-12 col-sm-12">
             <h1 className="title">find your creativity</h1>
         </div>
     </div>
